@@ -1,0 +1,184 @@
+/*.hero {
+        margin: 15px auto;
+        padding: 15px;
+        min-height: 0.2em;
+        background: rgba(120, 140, 180, .30);
+        width: 50%;
+        border: 1px solid rgba(120, 140, 180, .80);
+      }
+
+      .hero > input {
+        padding: 10px;
+        border: 1px solid rgba(120, 140, 180, .80);
+        border-radius: 2.5px;
+        width: 80%;
+      }
+
+      .hero > button {
+        padding: 10px;
+        background: rgba(120, 140, 180, .30);
+        border: 1px solid rgba(120, 140, 180, .80);
+        border-radius: 2.5px;
+        font-size: 10pt;
+        font-family: arial;
+        font-weight: 700;
+      }
+
+      .hero > p {
+        color: rgba(10, 30, 50, .80);
+        margin: 10px auto;
+        padding: 10px;
+        width: 40%;
+        font-size: 15pt;
+        font-family: arial;
+        font-weight: 700;
+
+      }
+*/
+
+section {
+  margin: 0px;
+}
+
+section > div {
+  width: 100%;
+  margin: 5px;
+}
+
+.hero {
+  display: table;
+  position: relative;
+  /*background-image: url(../img/cover.jpg); */
+  background-size: cover;
+  /*background: rgba(120, 140, 180, .80);*/
+  padding: 50px 0 0 0;
+  color: #fff;
+  width: 100%;
+  height: 80vh;
+}
+
+.hero .container1 {
+  margin: 10px auto;
+  padding: 10px;
+  min-height: 0.2em;
+  background: rgba(120, 140, 180, .30);
+  width: 70%;
+  border: 1px solid rgba(120, 140, 180, .80);
+}
+
+.hero .container1 > div > div > input {
+  padding: 10.5px;
+  border-left: 1px solid rgba(120, 140, 180, .80);
+  border-right: 1px solid rgba(120, 140, 180, .80);
+  border-bottom: 1px solid rgba(120, 140, 180, .80);
+  border-top: 1px solid rgba(120, 140, 180, .80);
+  border-radius: 2.5px;
+  width: 75%;
+}
+
+.hero .container1 > div > div > button {
+  padding: 10px;
+  background: rgba(120, 140, 180, .30);
+  border-right: 1px solid rgba(120, 140, 180, .80);
+  border-left: 1px solid rgba(120, 140, 180, .80);
+  border-top: 1px solid rgba(120, 140, 180, .80);
+  border-bottom: 1px solid rgba(120, 140, 180, .80);
+  border-radius: 2.5px;
+  font-size: 10pt;
+  font-family: arial;
+  font-weight: 700;
+}
+
+.hero .container2 {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    min-height: 20em;
+    border-radius: 4px;
+    margin: auto;
+    /*background: rgba(255, 255, 255, 100);*/
+}
+
+.hero .container3 {
+  margin: 10px 0;
+  padding: 10px;
+  min-height: 0.2em;
+  background: rgba(125, 145, 185, .30);
+  width: 50%;
+  border: 1px solid rgba(125, 145, 185, .80);
+}
+
+p.text-footer {
+  color: rgba(0, 0, 0, .50);
+  font-size: 18pt;
+  font-family: arial;
+  font-weight: 800;
+  /*background: rgba(0, 0, 0, .50);*/
+  padding: 10px 0px;
+  width: 50%;
+}
+p.text-footer > a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 800;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  margin:-35px auto;
+  /*background: rgba(0, 0, 0, .50);*/
+  position: absolute;
+}
+
+@media screen and (min-width: 600px) and (max-width: 799px) {
+  .hero .container1 > div > div > button {
+    padding: 10px;
+    background: rgba(120, 140, 180, .30);
+    border-right: 1px solid rgba(120, 140, 180, .80);
+    border-left: 1px solid rgba(120, 140, 180, .80);
+    border-top: 1px solid rgba(120, 140, 180, .80);
+    border-bottom: 1px solid rgba(120, 140, 180, .80);
+    border-radius: 2.5px;
+    font-size: 10pt;
+    font-family: arial;
+    font-weight: 700;
+    width: 20%;
+  }
+}
+
+
+@media screen and (min-width: 800px) and (max-width: 1099px) {
+
+
+  .hero .container1 > div > div > button {
+  padding: 10px;
+  background: rgba(120, 140, 180, .30);
+  border-right: 1px solid rgba(120, 140, 180, .80);
+  border-left: 1px solid rgba(120, 140, 180, .80);
+  border-top: 1px solid rgba(120, 140, 180, .80);
+  border-bottom: 1px solid rgba(120, 140, 180, .80);
+  border-radius: 2.5px;
+  font-size: 10pt;
+  font-family: arial;
+  font-weight: 700;
+  width: 20%;
+}
+
+}
+
+@media screen and (min-width: 1100px) {
+
+  .hero .container1 > div > div > button {
+    padding: 10px;
+    background: rgba(120, 140, 180, .30);
+    border-right: 1px solid rgba(120, 140, 180, .80);
+    border-left: 1px solid rgba(120, 140, 180, .80);
+    border-top: 1px solid rgba(120, 140, 180, .80);
+    border-bottom: 1px solid rgba(120, 140, 180, .80);
+    border-radius: 2.5px;
+    font-size: 10pt;
+    font-family: arial;
+    font-weight: 700;
+    width: 20%;
+  }
+}

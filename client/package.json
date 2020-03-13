@@ -1,0 +1,23 @@
+{
+  "name": "xrtlink",
+  "description": "Shortlink generator",
+  "version": "1.0.0",
+  "author": "Djamal dos Santos <djamal.dos.santos@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "express",
+    "vue.js",
+    "axios",
+    "web"
+  ],
+  "dependencies": {
+    "express":"^4.17.1",
+    "pug":"^2.0.4"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  }
+}
